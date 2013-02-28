@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Foreman::Export::Mongroup do
+describe Foreman::Export::Mongroup, fakefs: true do
   let(:procfile)  { FileUtils.mkdir_p("/tmp/app") ; write_procfile("/tmp/app/Procfile") }
   let(:location)  { "/tmp/app" }
   let(:formation) { nil }

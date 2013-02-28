@@ -21,7 +21,7 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'random'
 
-  config.include FakeFS::SpecHelpers
+  config.include FakeFS::SpecHelpers, fakefs: true
 end
 
 def write_procfile(procfile="Procfile", alpha_env="")
