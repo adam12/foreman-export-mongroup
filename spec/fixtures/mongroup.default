@@ -1,0 +1,4 @@
+pids = /tmp/app/tmp/pids
+logs = /var/log/app
+alpha.1 = cd /tmp/app ; export PORT=5000 ; ./alpha
+bravo.1 = cd /tmp/app ; export PORT=5100 ; ./bravo

@@ -22,7 +22,7 @@ class Foreman::Export::Mongroup < Foreman::Export::Base
       end
     end
 
-    mongroup << " " # Add an empty line so our last process is detected
+    mongroup << "" # Add an empty line so our last process is detected
 
     write_file "mongroup.conf", mongroup.join("\n")
   end
