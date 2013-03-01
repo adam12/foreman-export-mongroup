@@ -11,7 +11,8 @@ Gem::Specification.new do |gem|
   gem.authors  = ['Adam Daniels']
   gem.email    = 'adam@mediadrive.ca'
   gem.homepage = 'http://github.com/adam12/foreman-export-mongroup'
-
+  gem.license  = 'MIT'
+  
   gem.has_rdoc = false
   gem.extra_rdoc_files = ['README.md']
 
