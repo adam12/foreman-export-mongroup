@@ -4,10 +4,8 @@ require 'fakefs/spec_helpers'
 
 $:.unshift File.expand_path('../lib', __FILE__)
 
-require 'foreman'
 require 'foreman/engine'
-require 'foreman/export'
-require 'foreman-export-mongroup'
+require 'foreman/export/mongroup'
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|

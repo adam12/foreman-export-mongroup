@@ -1,3 +1,5 @@
+require 'foreman/export'
+
 class Foreman::Export::Mongroup < Foreman::Export::Base
   def export
     error('Must specify a location') unless location
