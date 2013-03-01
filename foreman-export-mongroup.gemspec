@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name    = 'foreman-export-mongroup'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
   gem.date    = Date.today.to_s
 
   gem.add_dependency 'foreman', '>= 0.59.0'
@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email    = 'adam@mediadrive.ca'
   gem.homepage = 'http://github.com/adam12/foreman-export-mongroup'
   gem.license  = 'MIT'
-  
+
   gem.has_rdoc = false
   gem.extra_rdoc_files = ['README.md']
 
